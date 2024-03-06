@@ -128,7 +128,8 @@ fn mod_item(vis: &Visibility, name: String) -> TokenStream2 {
 
     quote! {
         #(#[path = #path])*
-        #vis mod #ident;
+        mod #ident;
+        pub use #ident::*;
     }
 }
 
