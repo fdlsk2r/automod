@@ -1,7 +1,7 @@
 [package]
 name = "automod"
 version = "1.0.14"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+authors = ["David Tolnay <dtolnay@gmail.com>", "Lin Su <sisyphsu@gmail.com>"]
 categories = ["development-tools::build-utils", "filesystem", "no-std", "no-std::no-alloc"]
 description = "Pull in every source file in a directory as a module."
 documentation = "https://docs.rs/automod"
